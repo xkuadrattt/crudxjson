@@ -1,0 +1,17 @@
+{
+  "name": "crudjson",
+  "version": "1.0.0",
+  "description": "crudxjson",
+  "type": "module",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "Muhammad Taufik",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}

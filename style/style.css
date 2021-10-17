@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+html{
+    --fontfamily : 'Lato', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#form_konten{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontfamily);
+    padding: 1.5rem;
+    height: 60vh;
+}
+
+input#judul{
+    width: 50ch;
+    height: 2rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+textarea#konten{
+    width: 50.5ch;
+    margin-top: .5rem;
+    height: 8rem;
+}
+
+button.submit{
+    margin-top: .5rem;
+    padding: .75rem 1rem;
+    border: none;
+    color: #fff;
+    border-radius: .5rem;
+    background-color: hsl(135, 60%, 40%);
+    width: 6rem;
+}
+
+button.submit:hover{
+    cursor: pointer;
+    background-color: hsl(135, 80%, 40%);
+}
+
+.output{
+    padding: 1.5rem;
+    font-family: var(--fontfamily);
+}
+
+.output p{
+    margin-top: 1.25rem;
+}
+
+.output h1{
+    font-size: 1.5rem;
+}
+
+.post{
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 62.5rem){ 
+    .container{
+        display: flex;
+        gap: 2rem;
+    }
+    .output h1{
+        font-size: 2rem;
+    }
+}
